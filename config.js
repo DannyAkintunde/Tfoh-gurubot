@@ -8,6 +8,11 @@ import axios from "axios";
 global.owner = [
   ["2348098309204", "Danny", true],
   ["2348065643413", "Tfoh", true],
+  ["2349037973889","user1",true],
+  ["2349152311388","user2",true],
+  ["2348114106291","user3",true],
+  ["2348039375242","user4",true],
+  ["2348161668507","user5",true],
 ]; //Number of owners
 
 global.pairingNumber = "2348065643413"; //put your bot number here
