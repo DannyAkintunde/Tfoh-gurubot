@@ -29,7 +29,7 @@ import {
  
   乂───『 *I N F O*』───乂
   ⛥ *Bot Name:* ${botname}
-  ⛥ *Mode:* %mode
+  ⛥ *Mode:* Private
   ⛥ *Platform:* %platform
   ⛥ *Type:* NodeJs
   ⛥ *Baileys:* Multi Device
