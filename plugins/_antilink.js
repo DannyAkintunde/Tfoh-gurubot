@@ -1,5 +1,5 @@
 
-const linkRegex = /chat.whatsapp.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i
+const linkRegex = /[^\.]+([a-zA-Z0-9]+://[a-zA-Z0-9+-.]+[a-zA-Z0-9]+)/g
 
 export async function before(m, {conn, isAdmin, isBotAdmin }) {
     if (m.isBaileys && m.fromMe)
